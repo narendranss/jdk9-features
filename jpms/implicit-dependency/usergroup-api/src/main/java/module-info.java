@@ -6,6 +6,7 @@ module org.wildcraft.jpms.implicit.usergroup.api {
     requires org.wildcraft.jpms.versioning.api;
     requires transitive org.wildcraft.jpms.implicit.user.api;
 
+    //Provides & Consumes a Default provider.
     uses org.wildcraft.jpms.implicit.user.api.UserAPI;
     uses org.wildcraft.jpms.implicit.usergroup.api.provider.UserGroupServiceProvider;
 
